@@ -1,0 +1,32 @@
+{
+    "name": "soccer App",
+    "version": "1.0.0",
+    "description": "Api from soccer app",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "apekov",
+    "license": "ISC",
+    "dependencies": {
+        "config": "^3.0.1",
+        "dotenv": "^6.2.0",
+        "eslint-config-prettier": "^4.1.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "koa": "^2.7.0",
+        "koa-body": "^4.0.8",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
+        "koa-static": "^5.0.0",
+        "pg": "^7.8.1",
+        "pg-hstore": "^2.3.2",
+        "prettier": "^1.16.4",
+        "sequelize": "^4.43.0",
+        "sequelize-cli": "^5.4.0"
+    },
+    "devDependencies": {
+        "eslint": "^5.15.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0"
+    }
+}
